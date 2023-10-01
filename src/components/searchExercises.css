@@ -1,0 +1,124 @@
+.searchExercises__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2.3rem;
+    padding: 1.3rem;
+}
+
+.searchExercises__title {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.searchExersices__search {
+    position: relative;
+    margin-bottom: 4rem;
+    display: flex;
+}
+
+.searchExersices__search input {
+    height: 50px;
+    font-weight: 700;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 1rem;
+    background: #fff;
+}
+
+.searchExersices__search .search-btn {
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 14px;
+    text-transform: none;
+    position: absolute;
+    width: 80px; 
+    height: 100%;
+    right: 0;
+    top: 0;
+    border: none;
+    border-top-right-radius: 8px; 
+    border-bottom-right-radius: 8px; 
+    cursor: pointer;
+}
+
+.searchExersices__search .search-btn:hover {
+    opacity: 0.5;
+}
+
+.exercises__body-parts__container {
+    position: relative;
+    width: 100%;
+    padding: 1.3rem;
+}
+
+.exercises__body-parts__container .scrollMenu {
+    width: 230px;
+}
+
+.exercises__body-parts__container .right-arrow {
+    left: 70%;
+}
+
+.exercises__body-parts__container .left-arrow {
+    left: 30%;
+}
+
+
+@media (min-width: 450px) {
+    .searchExersices__search input {
+        width: 350px;
+    }
+}
+
+@media (min-width: 650px) {
+    .exercises__body-parts__container .scrollMenu {
+        width: 480px !important;
+    }
+
+    .exercises__body-parts__container .right-arrow {
+        left: 60%;
+    }
+    
+    .exercises__body-parts__container .left-arrow {
+        left: 40%;
+    }
+}
+
+@media (min-width: 800px) {
+    .exercises__body-parts__container .scrollMenu {
+        width: 730px !important;
+    }
+}
+
+
+@media (min-width: 1000px) {
+    .exercises__body-parts__container .scrollMenu {
+        width: 920px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .searchExercises__title {
+        font-size: 2.75rem;
+    }
+
+    .searchExersices__search input {
+        width: 800px;
+    }
+
+    .searchExersices__search .search-btn {
+        width: 175px;
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 1330px) {
+    .exercises__body-parts__container .scrollMenu {
+        width: 1240px !important;
+    }
+}
+

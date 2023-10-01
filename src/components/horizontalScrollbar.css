@@ -1,0 +1,45 @@
+.exercise__category {
+   margin: 15px;
+}
+
+.scrollMenu {
+    position: relative;
+    margin-inline: auto;
+    padding-bottom: 3rem;
+}
+
+.scrollMenu__container {
+    display: flex;
+    overflow-y: scroll;
+    gap: var(--scroll_padding);
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+.right-arrow,
+.left-arrow {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: var(--primary-color); 
+    font-size: 2.5rem;
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: 0.3s all ease-in-out;
+}
+
+.right-arrow:hover,
+.left-arrow:hover {
+    transform: scale(1.5) translateX(-40%);
+}
+
+@media (min-width: 800px) {
+    .right-arrow,
+    .left-arrow {
+        font-size: 3rem;
+    }
+}

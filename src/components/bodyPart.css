@@ -1,0 +1,77 @@
+.bodyPart-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.9rem;
+    width: 200px;
+    height: 250px;
+    cursor: pointer;
+    padding: 1rem;
+    background: black;
+    transform: scale(1, 1);
+    transition: 0.3s all ease-in-out;
+    border: 4px solid var(--secondary-color);
+    border-radius: 25px;
+}
+
+.bodyPart-card:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.bodyPart-card img {
+    width: 40px;
+    height: 40px;
+}
+
+.bodyPart-card p {
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: "Alegreya"; 
+    color: var(--secondary-color); 
+    text-transform: capitalize;
+}
+
+.bodyPart-card.active {
+    border: 4px solid var(--primary-color);  
+}
+
+@media (min-width: 650px) {
+    .scrollMenu {
+        width: 480px !important;
+    }
+
+    .left-arrow {
+        left: 60%;
+    }
+    
+    .right-arrow {
+        left: 40%;
+    }
+}
+
+@media (min-width: 800px) {
+    .scrollMenu {
+        width: 730px !important;
+    }
+}
+
+
+@media (min-width: 1000px) {
+    .scrollMenu {
+        width: 920px !important;
+    }
+
+    .bodyPart-card {
+        width: 250px;     
+    }
+}
+
+
+@media (min-width: 1330px) {
+    .scrollMenu {
+        width: 1240px !important;
+    }
+}
+
+

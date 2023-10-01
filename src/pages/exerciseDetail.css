@@ -1,0 +1,18 @@
+.exerciseDetail__container {
+    margin-top: 3.75rem;
+}
+
+.detail-image {
+    width: 300px;
+    height: 300px;
+}
+
+@media (min-width: 1200px) {
+    .exerciseDetail__container {
+        margin-top: 6rem;
+    }
+    .detail-image {
+        width: 729px;
+        height: 742px;
+    }
+}

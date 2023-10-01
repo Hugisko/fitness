@@ -1,0 +1,105 @@
+.similartExercises__container .scrollMenu {
+    width: 280px;
+}
+
+.similartExercises__container .scrollMenu .scrollMenu__container {
+    padding-block: 2rem;
+}
+
+.similartExercises__container .right-arrow {
+    left: 70%;
+}
+
+.similartExercises__container .left-arrow {
+    left: 30%;
+}
+
+.similartExercises__container {
+    padding-top: 9rem;
+}
+
+.similartExercises__container > p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+    margin-bottom: 2.2rem;
+    text-align: center;
+}
+
+.targetMuscleExercises__container {
+    display: flex;
+    position: relative;
+}
+
+.equipmentExercises__title {
+    margin-top: 3.8rem;
+}
+
+.equipmentExercises__container {
+    display: flex;
+    position: relative;
+}
+
+.targetMuscleExercises__title span,
+.equipmentExercises__title span {
+    text-transform: capitalize;
+    color: var(--primary-color);
+}
+
+
+@media (min-width: 450px) {
+    .similartExercises__container .scrollMenu {
+        width: 330px !important;
+    }
+}
+
+
+@media (min-width: 650px) {
+    .similartExercises__container .scrollMenu {
+        width: 380px !important;
+    }
+}
+
+
+@media (min-width: 800px) {
+    .similartExercises__container .scrollMenu {
+        width: 780px !important;
+    }
+
+    .similartExercises__container .right-arrow {
+        left: 60%;
+    }
+    
+    .similartExercises__container .left-arrow {
+        left: 40%;
+    }
+}
+
+
+@media (min-width: 1000px) {
+    .similartExercises__container .scrollMenu {
+        width: 800px !important;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .similartExercises__container {
+        margin-top: 2rem;
+    }
+
+    .similartExercises__container > p {
+        font-size: 2.75rem;
+    }
+
+    .equipmentExercises__title {
+        margin-top: 10rem;
+    }
+ 
+}
+
+@media (min-width: 1250px) {
+    .similartExercises__container .scrollMenu {
+        width: 1220px !important;
+    }
+}
